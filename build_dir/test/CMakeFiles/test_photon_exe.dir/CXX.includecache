@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/constants.h
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/photon.h
+cmath
+-
+iostream
+-
+vector
+-
+constants.h
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/constants.h
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/test/test_photon.cc
+iostream
+-
+../photon.h
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/photon.h
+testing_functions.h
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/test/testing_functions.h
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/test/testing_functions.h
+cmath
+-
+

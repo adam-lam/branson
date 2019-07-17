@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/buffer.h
+mpi.h
+-
+vector
+-
+
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/test/test_buffer.cc
+iostream
+-
+mpi.h
+-
+vector
+-
+../buffer.h
+/nfs/stak/users/lamad/imc_phd/new_branson/branson/src/buffer.h
+
+/usr/include/mpich-3.2-x86_64/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/include/mpich-3.2-x86_64/mpio.h
+mpicxx.h
+/usr/include/mpich-3.2-x86_64/mpicxx.h
+
+/usr/include/mpich-3.2-x86_64/mpicxx.h
+stdio.h
+-
+
+/usr/include/mpich-3.2-x86_64/mpio.h
+mpi.h
+/usr/include/mpich-3.2-x86_64/mpi.h
+
